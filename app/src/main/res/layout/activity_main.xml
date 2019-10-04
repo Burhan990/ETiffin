@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:id="@+id/textSlogan"
+            android:layout_width="200dp"
+            android:text="@string/slogan"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnSignUp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:theme="@style/MatButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="@string/Sign_Up"
+            android:textColor="@color/color_white"
+            app:icon="@drawable/ic_person_add_black_24dp"
+            app:iconTint="#FFFFFF"
+            app:rippleColor="#015550"
+            app:strokeColor="#06ABDD"
+            android:backgroundTint="#EE0909"
+            app:strokeWidth="2dp"
+            android:elevation="10dp"
+            app:iconGravity="textStart"
+            app:cornerRadius="@dimen/fab_margin"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnSignIn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:theme="@style/MatButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="@string/Sign_In"
+            android:textColor="@color/color_white"
+            app:icon="@drawable/ic_input_black_24dp"
+            app:iconTint="#FFFFFF"
+            app:rippleColor="#015550"
+            android:backgroundTint="#EE0909"
+            app:strokeWidth="2dp"
+            android:elevation="10dp"
+            app:iconGravity="textStart"
+            app:cornerRadius="@dimen/fab_margin"/>
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

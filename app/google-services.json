@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158545813468",
+    "firebase_url": "https://etiffin-48874.firebaseio.com",
+    "project_id": "etiffin-48874",
+    "storage_bucket": "etiffin-48874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158545813468:android:eba78e073b7f390b",
+        "android_client_info": {
+          "package_name": "com.example.e_tiffin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158545813468-tijph6dijoqvqfm91cplvtfj22p5v2e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_tiffin",
+            "certificate_hash": "27f15ef1fc04ba27ec330ffdaf7009dd1d484649"
+          }
+        },
+        {
+          "client_id": "158545813468-2l54sl4396kt1ouh0hrt4r3q11471hua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk9C5y8WLjqwFe_XezU3P6k-F3TqLozZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158545813468-2l54sl4396kt1ouh0hrt4r3q11471hua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
